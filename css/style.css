@@ -62,16 +62,25 @@ nav {
     align-items: center;
     justify-content: center;
     width: auto;
+    height: 350px;
+    background-color: #1F2937;
     border: 1px solid red;
 }
 
 
 .hero div {
     display: flex;
-    flex: 1;
+    flex: 2;
     border: 1px solid red;
     justify-content: center;
     align-items: center;
+}
+
+.hero div:nth-of-type(2){
+    
+}
+.hero div:nth-of-type(3) {
+    
 }
 
 .hero-text {
@@ -81,8 +90,50 @@ nav {
     border: 1px solid red;
     justify-content: center;
     align-items: center;
+    
+    
 }
 
-.hero-text {
-    
+.hero-text h2,
+.hero-text p,
+.hero-text button{
+    display: flex;
+    align-self: start; 
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+
+.hero-text button {
+    border: none;
+    border-radius: 5px;
+    width: 10vh;
+    height: 3vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-top: 10px;
+}
+
+.box div{
+    display: flex;
+    width: 10px;
+    height: 10px;
+    border: 1px solid royalblue;
+    flex: -2 0 50px;
+}
+
+img {
+    width: auto;
+    height: 25vh;
 }
